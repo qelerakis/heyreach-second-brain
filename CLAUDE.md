@@ -40,7 +40,8 @@ Neutral, authoritative, practitioner-useful — a knowledgeable guide *to* HeyRe
 HeyReach's own marketing voice. Concrete over vague: real steps, thresholds, scripts, and numbers.
 
 ## Maintenance / refresh
-To update: re-scrape the sources into `D:\Hypermemory Outreach Knowledge Base\heyreach-*`, copy new/
-changed files into `raw/`, re-run extraction for the new files (`wiki/_build/EXTRACTION-PROMPT.md`),
+To update: re-scrape the HeyReach sources (the `@heyreach` YouTube channel + heyreach.io blog,
+outbound-playbooks, experts, and product pages) into a working folder, copy new/changed files into
+`raw/`, re-run extraction for the new files (`wiki/_build/EXTRACTION-PROMPT.md`),
 fold into the wiki per `wiki/_build/SYNTHESIS-CAVEATS.md`, and re-run the citation verifier to 0
 unresolved.
